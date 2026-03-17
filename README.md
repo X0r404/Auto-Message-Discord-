@@ -49,3 +49,9 @@ Then run:
 Copy code
 Bash
 python dc.py
+How to run it?
+Changes in Nano Dc.py
+Replace channel id , token , message
+And Python Dc.py 
+To run
+Thanks...
