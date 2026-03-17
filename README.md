@@ -55,3 +55,5 @@ Replace channel id , token , message
 And Python Dc.py 
 To run
 Thanks...
+# the download
+'Git Clone https://github.com/X0r404/Auto-Message-Discord-.git'
