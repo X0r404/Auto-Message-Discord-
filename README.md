@@ -1,37 +1,51 @@
-# Auto-Message-Discord-
-A Discord Auto Message On mobile with token Termux
-
 # Discord Auto Messenger
 
 A simple Python script that automatically sends messages to a Discord channel.
 
-## Features
-- Auto send messages
-- Custom message
-- Adjustable delay
-- Works on Termux
-
-## Requirements
-- Python 3
-- discord.py
-
-## Installation
-
-Install Python dependencies:
-
+Setup on Termux (Step-by-Step)
+1️⃣ Update Termux
+Copy code
+Bash
+pkg update
+pkg upgrade
+2️⃣ Install Python
+Copy code
+Bash
+pkg install python
+Check version:
+Copy code
+Bash
+python --version
+3️⃣ Install discord library
+Copy code
+Bash
 pip install discord.py
+4️⃣ Create the file
+Copy code
+Bash
+nano dc.py
+Paste your script.
+Save:
+Copy code
 
-## Usage
-
-1. Open the file dc.py
-2. Add your bot token
-3. Add your channel ID
-4. Run:
-
+CTRL + X
+Y
+ENTER
+5️⃣ Run the script
+Copy code
+Bash
 python dc.py
+If the token works you will see:
+Copy code
 
-## Warning
-Do NOT share your token with anyone.
-
-## Author
-Rasan
+Logged in as YourName
+5. Running 24/7 on Termux
+If you want it running while the screen is off:
+Install wakelock:
+Copy code
+Bash
+termux-wake-lock
+Then run:
+Copy code
+Bash
+python dc.py
